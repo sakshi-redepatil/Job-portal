@@ -8,6 +8,10 @@ module.exports=(Sequelize,sequelize)=>{
     Name:{
         type:Sequelize.DataTypes.STRING(100),
         allowNull:false
+
+
+
+        
     },
     Age:{
         type:Sequelize.DataTypes.INTEGER,
